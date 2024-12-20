@@ -1,0 +1,377 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 48px;
+        --font_size_title_small: 40px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .cont,
+    .cont.big
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: 40px;
+        right: 40px;
+    }
+
+
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        width: 72px;
+    }
+
+
+    header .socials a
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .bg
+    {
+        padding: 200px 0 100px;
+
+        border-radius: 32px;
+    }
+
+
+    .first_section .data
+    {
+        width: 456px;
+
+        gap: 20px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 76px;
+        line-height: 84px;
+    }
+
+
+    .first_section .image
+    {
+        right: 0;
+
+        width: 500px;
+        height: 472px;
+    }
+
+
+    .first_section .image .img1
+    {
+        left: 48px;
+
+        width: 320px;
+    }
+
+    .first_section .image .img2
+    {
+        top: 32px;
+
+        width: 132px;
+    }
+
+    .first_section .image .img3
+    {
+        top: 120px;
+
+        width: 180px;
+    }
+
+
+
+    /*-----------
+        Logos
+    -----------*/
+    .logos .bg
+    {
+        padding: 20px;
+
+        border-radius: 32px;
+    }
+
+
+    .logos .swiper-slide
+    {
+        width: 140px;
+    }
+
+
+    .logos .item
+    {
+        height: 88px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .cont
+    {
+        gap: 24px;
+    }
+
+
+    .team .boss .data
+    {
+        width: calc(100% - 364px);
+        padding: 32px;
+    }
+
+
+    .team .boss .text
+    {
+        font-size: 18px;
+    }
+
+
+    .team .boss .name
+    {
+        font-size: 24px;
+
+        margin-top: 48px;
+    }
+
+
+    .team .boss .post
+    {
+        font-size: 14px;
+    }
+
+
+    .team .boss .photo
+    {
+        width: 340px;
+        min-height: 360px;
+    }
+
+
+
+    .team .person .info
+    {
+        padding: 20px;
+    }
+
+
+    .team .person .name
+    {
+        font-size: 18px;
+    }
+
+
+    .team .person .post
+    {
+        font-size: 12px;
+    }
+
+
+    .team .swiper .controls
+    {
+        width: 132px;
+        margin-top: 40px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events .event .info
+    {
+        padding: 20px;
+    }
+
+
+    .events .event .name
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-----------------
+        Cooperation
+    -----------------*/
+    .cooperation .action_form
+    {
+        padding: 32px;
+
+        border-radius: 32px;
+    }
+
+
+
+    .cooperation .manager
+    {
+        padding: 20px;
+
+        border-radius: 24px;
+    }
+
+
+    .cooperation .manager .photo
+    {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 8px;
+    }
+
+
+    .cooperation .manager .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------
+        Career
+    ------------*/
+    .career .vacancy
+    {
+        padding: 20px;
+    }
+
+
+
+    /*-----------------
+        Age confirm
+    -----------------*/
+    .age_confirm .bg
+    {
+        border-radius: 36px;
+    }
+
+
+    .age_confirm .logo
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .age_confirm .logo img
+    {
+        height: 124px;
+    }
+
+
+    .age_confirm .exp
+    {
+        font-size: 14px;
+        line-height: calc(100% + 6px);
+
+        margin-top: 48px;
+    }
+
+
+
+    /*-------------------
+        Access denied
+    -------------------*/
+    .access_denied .bg
+    {
+        border-radius: 36px;
+    }
+
+
+    .access_denied .logo
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .access_denied .logo img
+    {
+        height: 124px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .bg
+    {
+        padding: 48px 16px;
+
+        border-radius: 32px;
+    }
+
+
+    footer .text
+    {
+        margin-top: 80px;
+    }
+
+
+    footer .creator
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 60px;
+    }
+}

@@ -1,0 +1,137 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .cont,
+    .cont.big
+    {
+        padding: 0 16px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        width: 48px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .bg
+    {
+        padding-top: 380px;
+        padding-bottom: 32px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 56px;
+        line-height: 68px;
+    }
+
+
+    .first_section .image
+    {
+        top: 96px;
+        left: 0;
+
+        width: 312px;
+        height: 257px;
+    }
+
+
+    .first_section .image .img1
+    {
+        width: 174px;
+    }
+
+    .first_section .image .img2
+    {
+        width: 78px;
+    }
+
+    .first_section .image .img3
+    {
+        top: 72px;
+
+        width: 100px;
+    }
+
+
+
+    /*-----------------
+        Age confirm
+    -----------------*/
+    .age_confirm .bg
+    {
+        padding: 40px 0;
+    }
+
+
+    .age_confirm .logo img
+    {
+        height: 86px;
+    }
+
+
+    .age_confirm .title
+    {
+        line-height: calc(100% + 6px);
+    }
+
+
+
+    /*-------------------
+        Access denied
+    -------------------*/
+    .access_denied .bg
+    {
+        padding: 40px 0;
+    }
+
+
+    .access_denied .logo img
+    {
+        height: 86px;
+    }
+
+
+    .access_denied .title
+    {
+        line-height: calc(100% + 6px);
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 16px;
+    }
+}

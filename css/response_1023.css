@@ -1,0 +1,515 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: 32px;
+        right: 32px;
+    }
+
+
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .bg
+    {
+        padding: 500px 0 60px;
+    }
+
+
+    .first_section .data
+    {
+        width: 100%;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 68px;
+        line-height: 76px;
+    }
+
+
+    .first_section .image
+    {
+        top: 80px;
+        right: 0;
+        bottom: 0;
+        left: 40px;
+
+        width: 440px;
+        height: 384px;
+        margin: 0 auto;
+    }
+
+
+    .first_section .image .img1
+    {
+        width: 260px;
+    }
+
+    .first_section .image .img2
+    {
+        top: 24px;
+
+        width: 108px;
+    }
+
+    .first_section .image .img3
+    {
+        top: 100px;
+
+        width: 160px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    .advantages .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+
+    .advantages .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .advantages .row > *
+    {
+        display: inline-block;
+
+        width: 272px;
+        max-width: none;
+        min-height: 164px;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+
+        scroll-snap-align: start;
+    }
+
+
+    .advantages .row > * + *
+    {
+        margin-left: 4px;
+    }
+
+
+    .advantages .item .icon
+    {
+        margin-bottom: 36px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .boss .data
+    {
+        width: calc(100% - 352px);
+    }
+
+
+    .team .boss .name
+    {
+        font-size: 20px;
+    }
+
+
+    .team .boss .photo
+    {
+        width: 328px;
+        min-height: 344px;
+    }
+
+
+    .team .swiper-slide
+    {
+        width: 272px;
+    }
+
+
+    .team .swiper .controls
+    {
+        margin-top: 24px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events .swiper-slide
+    {
+        width: 272px;
+    }
+
+
+    .events .event .location
+    {
+        margin-bottom: 0;
+    }
+
+
+    .events .swiper .controls
+    {
+        margin-top: 24px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------------
+        Cooperation
+    -----------------*/
+    .cooperation .action_form .block_head
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 32px;
+    }
+
+
+    .cooperation .action_form .form
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .cooperation .managers .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    .cooperation .managers .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+
+    .cooperation .managers .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .cooperation .managers .row > *
+    {
+        display: inline-block;
+
+        width: 272px;
+        max-width: none;
+        min-height: 412px;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+
+        scroll-snap-align: start;
+    }
+
+
+    .cooperation .managers .row > * + *
+    {
+        margin-left: 4px;
+    }
+
+
+    .cooperation .manager
+    {
+        padding: 16px;
+    }
+
+
+    .cooperation .manager .photo
+    {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 24px;
+    }
+
+
+    .cooperation .manager .contacts
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*------------
+        Career
+    ------------*/
+    .career .block_head
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 32px;
+    }
+
+
+    .career .list
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        max-width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    .career .list::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+
+    .career .list::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .career .list > *
+    {
+        display: inline-block;
+
+        width: 272px;
+        max-width: none;
+        min-height: 292px;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+
+        scroll-snap-align: start;
+    }
+
+
+    .career .list > * + *
+    {
+        margin-left: 4px;
+    }
+
+
+    .career .vacancy
+    {
+        position: relative;
+
+        padding: 16px;
+    }
+
+
+    .career .vacancy .head
+    {
+        gap: 12px;
+    }
+
+
+    .career .vacancy .desc
+    {
+        font-size: 18px;
+        line-height: calc(100% + 6px);
+
+        margin-top: 16px;
+    }
+
+
+    .career .vacancy .btn
+    {
+        position: absolute;
+        right: 16px;
+        bottom: 16px;
+    }
+
+
+
+    /*-----------------
+        Age confirm
+    -----------------*/
+    .age_confirm .bg
+    {
+        padding: 48px 40px;
+    }
+
+
+    .age_confirm .logo img
+    {
+        height: 108px;
+    }
+
+
+    .age_confirm .title
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*-------------------
+        Access denied
+    -------------------*/
+    .access_denied .bg
+    {
+        padding: 48px 40px;
+    }
+
+
+    .access_denied .logo img
+    {
+        height: 108px;
+    }
+
+
+    .access_denied .title
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .bg
+    {
+        padding: 40px 16px;
+    }
+
+
+    footer .col
+    {
+        width: 100%;
+
+        gap: 12px;
+    }
+
+
+    footer .socials
+    {
+        gap: 12px;
+    }
+
+
+    footer .socials a
+    {
+        width: calc(50% - 6px);
+    }
+
+
+    footer .shops
+    {
+        width: 100%;
+        margin-top: 24px;
+
+        gap: 16px;
+    }
+
+
+    footer .text
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 48px;
+    }
+
+
+
+    /*-------------------
+        PopUp - Event
+    -------------------*/
+    #event_modal .gallery .row > *
+    {
+        width: calc(33.333% - 16px);
+    }
+}

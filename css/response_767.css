@@ -1,0 +1,417 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .cont,
+    .cont.big
+    {
+        padding: 0 20px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: 20px;
+        right: 20px;
+    }
+
+
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .tabs > *
+    {
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+
+        width: 100%;
+        margin: 0;
+
+        border-radius: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        top: 8px;
+
+        padding: 14px 8px;
+    }
+
+
+    header .logo img
+    {
+        width: 56px;
+    }
+
+
+    header .socials
+    {
+        gap: 12px;
+    }
+
+
+    header .socials a
+    {
+        width: 44px;
+        height: 44px;
+    }
+
+
+    header .socials .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    header .socials .vk_link .icon
+    {
+        width: 24px;
+        height: 14px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .block_head.center
+    {
+        text-align: left;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 8px;
+    }
+
+
+    .first_section .bg
+    {
+        padding-top: 456px;
+        padding-bottom: 48px;
+
+        border-radius: 24px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 60px;
+        line-height: 68px;
+    }
+
+
+    .first_section .image
+    {
+        top: 100px;
+
+        width: 380px;
+        height: 325px;
+    }
+
+
+    .first_section .image .img1
+    {
+        width: 220px;
+    }
+
+    .first_section .image .img2
+    {
+        top: 20px;
+
+        width: 92px;
+    }
+
+    .first_section .image .img3
+    {
+        top: 80px;
+
+        width: 132px;
+    }
+
+
+
+    /*-----------
+        Logos
+    -----------*/
+    .logos .bg
+    {
+        border-radius: 24px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .boss .photo
+    {
+        width: 100%;
+        padding-bottom: 105.182%;
+    }
+
+
+    .team .boss .data
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 12px;
+    }
+
+
+
+    .team .person .photo
+    {
+        padding-bottom: 97.058%;
+    }
+
+
+    .team .person .info
+    {
+        padding: 16px;
+    }
+
+
+    .team .swiper .controls
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events .event .thumb
+    {
+        padding-bottom: 97.058%;
+    }
+
+
+    .events .event .info
+    {
+        padding: 16px;
+    }
+
+
+    .events .swiper .controls
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*-----------------
+        Age confirm
+    -----------------*/
+    .age_confirm
+    {
+        padding: 8px;
+    }
+
+
+    .age_confirm .bg
+    {
+        padding: 40px 24px;
+
+        border-radius: 24px;
+    }
+
+
+    .age_confirm .logo img
+    {
+        height: 92px;
+    }
+
+
+    .age_confirm .title
+    {
+        font-size: 28px;
+    }
+
+
+
+    /*-------------------
+        Access denied
+    -------------------*/
+    .access_denied
+    {
+        padding: 8px;
+    }
+
+
+    .access_denied .bg
+    {
+        padding: 40px 24px;
+
+        border-radius: 24px;
+    }
+
+
+    .access_denied .logo img
+    {
+        height: 92px;
+    }
+
+
+    .access_denied .title
+    {
+        font-size: 28px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 0 8px 8px;
+    }
+
+
+    footer .bg
+    {
+        padding: 32px 12px;
+    }
+
+
+    footer .logo img
+    {
+        width: 99px;
+    }
+
+
+    footer .central_office
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    footer .socials a
+    {
+        height: 144px;
+    }
+
+
+    footer .text
+    {
+        margin-top: 48px;
+    }
+
+
+    footer .creator
+    {
+        margin-top: 24px;
+    }
+
+
+    footer .creator a
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 24px;
+
+        border-radius: 24px;
+    }
+
+
+
+    /*---------------------
+        PopUp - Vacancy
+    ---------------------*/
+    #vacancy_modal .description .desc
+    {
+        font-size: 18px;
+        line-height: calc(100% + 8px);
+    }
+
+
+    #vacancy_modal .description .link
+    {
+        margin-top: 24px;
+    }
+
+
+    #vacancy_modal .form .title
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-------------------
+        PopUp - Event
+    -------------------*/
+    #event_modal .description
+    {
+        margin-bottom: 24px;
+    }
+
+
+    #event_modal .description .desc
+    {
+        font-size: 18px;
+        line-height: calc(100% + 8px);
+    }
+
+
+    #event_modal .gallery .row > *
+    {
+        width: calc(50% - 16px);
+    }
+}

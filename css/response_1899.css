@@ -1,0 +1,253 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 56px;
+        --font_size_title_small: 44px;
+    }
+
+
+    .cont.big
+    {
+        padding: 0 60px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 16px 0 16px 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .desc
+    {
+        font-size: 22px;
+
+        width: 540px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .bg
+    {
+        padding: 200px 0 180px;
+    }
+
+
+    .first_section .data
+    {
+        width: 652px;
+
+        gap: 28px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 100px;
+        line-height: 108px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 22px;
+    }
+
+
+    .first_section .image
+    {
+        right: 36px;
+        bottom: 60px;
+
+        width: 680px;
+        height: 590px;
+        margin-right: 0;
+    }
+
+
+    .first_section .image .img1
+    {
+        left: 108px;
+
+        width: 400px;
+    }
+
+    .first_section .image .img2
+    {
+        top: 44px;
+
+        width: 180px;
+    }
+
+    .first_section .image .img3
+    {
+        top: 168px;
+
+        width: 240px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .boss .text
+    {
+        font-size: 22px;
+    }
+
+
+    .team .boss .name
+    {
+        font-size: 30px;
+    }
+
+
+
+    .team .person .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events .event .name
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*-----------------
+        Cooperation
+    -----------------*/
+    .cooperation .action_form .block_head
+    {
+        width: 540px;
+    }
+
+
+
+    .cooperation .manager .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*------------
+        Career
+    ------------*/
+    .career .block_head
+    {
+        width: 540px;
+    }
+
+
+    .career .vacancy .name
+    {
+        font-size: 22px;
+    }
+
+
+    .career .vacancy .desc
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-----------------
+        Age confirm
+    -----------------*/
+    .age_confirm .logo img
+    {
+        height: 160px;
+    }
+
+
+    .age_confirm .exp
+    {
+        font-size: 18px;
+
+        width: 1120px;
+        margin-top: 60px;
+    }
+
+
+
+    /*-------------------
+        Access denied
+    -------------------*/
+    .access_denied .logo img
+    {
+        height: 160px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo img
+    {
+        width: 92px;
+    }
+
+
+    footer .central_office
+    {
+        width: calc(100% - 116px);
+    }
+
+
+    footer .central_office .address
+    {
+        font-size: 22px;
+    }
+
+
+    footer .socials a
+    {
+        height: 128px;
+    }
+
+
+    footer .shops .city .addresses,
+    footer .shops .city .address
+    {
+        font-size: 18px;
+    }
+
+
+    footer .text
+    {
+        margin-top: 120px;
+    }
+
+
+    footer .creator
+    {
+        margin-top: 60px;
+    }
+}
